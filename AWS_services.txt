@@ -1,0 +1,71 @@
+Analytics
+	Athena				// based on S3
+	Redshift(Cluster, Specturm)			// data warehouse, columnar storage
+	OpenSearch			// formerly ElasticSearch
+	EMR(Cluster)					// Hadoop
+	QuickSight			// create Dashboards
+	Glue(Catalog)		// ETL
+	Lake Formation
+	Kinesis Data Streams
+	Amazon Data Firehose	// formerly Kinesis Firehose
+	Amazon Managed Apache Flink		//formerly Kinesis Data Analytics
+	Amazon Managed Streaming for Apache Kafka (Amazon MSK)		// alternative to Amazon Kinesis
+Application Integration
+	EventBridge
+	Amazon MQ
+	SNS
+	SQS
+	Step Functions
+Compute
+	EC2(ELB, ASG)
+	AWS App Runner
+	Elastic Beanstalk
+	Lambda
+Containers
+	Elastic Container Registry
+	ECS(Fargate)
+	EKS
+Database
+	Aurora and RDS			// Aurora(MySQL, PostgreSQL)
+	DynamoDB
+	ElasticCache			// Redis(Valkey), Memcached
+	DocumentDB				// MongoDB
+	Neptune					// Graph DB
+	Keyspaces				// Apache Cassandra
+	*Amazon QLDB(Quantum Ledger) --> Amazon Aurora PostgreSQL
+	Amazon Timestream
+Developer Tools
+	CloudShell
+Machine Learning
+	Rekognition
+	Transcribe				// speech to words
+	Polly					// words to speech, lexicon & SSML
+	Translate
+	lex						// used in Alexa, Automatic Speech Recognition (ASR), chatbot
+	Connect					// virtual contact center
+	Comprehend				// NLP
+	Comprehend Medical		// use NLP to detect Protected Health Information(PHI)
+	SageMaker				// build ML models
+	Kendra					// document search
+	Personalize				// used in Amazon.com, recommendation
+	Textract				// something like OCR
+Management & Governance
+	AWS Auto Scaling
+	CloudFormation
+	CloudWatch
+Migration & Transfer
+	AWS Snow Family
+Networking & Content Delivery
+	API Gateway
+	CloudFront
+	Global Accelerator
+	Route 53
+	VPC
+Security, Identity, & Compliance
+	Cognito
+	IAM
+Storage
+	EFS
+	FSx
+	S3
+	S3 Glacier
